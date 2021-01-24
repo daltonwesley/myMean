@@ -1,0 +1,11 @@
+# The original source code for this module includes errors in the function due to the inability to verify the object. So to fix this issue we implemented assignment 2 into the sum and length to enable the function to verify where the sum and length were coming from to product the mean of 19.25.
+
+# Assigning the data set.
+assignment2 <-c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22) 
+
+# Assigning the dataset to the function of myMean.
+myMean <- function(assignment2)
++ {return(sum(assignment2)/length(assignment2))}
+
+# Viewing the output of the "myMean" function.
+myMean(assignment2)
